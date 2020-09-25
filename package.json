@@ -1,11 +1,22 @@
 {
-  "name": "5livechat",
+  "name": "live-chat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexkhazzam/node-live-chat.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/alexkhazzam/node-live-chat/issues"
+  },
+  "homepage": "https://github.com/alexkhazzam/node-live-chat#readme",
   "dependencies": {
     "socket.io": "^2.3.0"
   }
